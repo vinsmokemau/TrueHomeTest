@@ -1,0 +1,12 @@
+# Django
+DJANGO_SETTINGS_MODULE=config.settings.local
+DJANGO_SECRET_KEY=0j)x++&q@a-3ew@e93^@5k@38o=!6^6ze+o*b86-d&i$!_k%ax
+DEBUG=True
+
+# Django DB
+DATABASE_ENGINE=postgresql_psycopg2
+DATABASE_NAME=truehomedb
+DATABASE_USERNAME=sBLRWyyPsInwHftmHAWmYJURGWBGFpLs
+DATABASE_PASSWORD=tuXL3XSF8O7tsGrcGHoMos4tVNtL3tnrRshSCZokGnIfk4ArDyzaa297k2WgQPSL
+DATABASE_HOST=postgres
+DATABASE_PORT=5432
