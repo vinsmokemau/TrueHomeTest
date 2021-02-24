@@ -9,7 +9,7 @@ services:
     build:
       context: .
       dockerfile: ./compose/local/django/Dockerfile
-    image: cornertest_local_django
+    image: truehome_local_django
     depends_on:
       - postgres
     volumes:
@@ -25,7 +25,7 @@ services:
     build:
       context: .
       dockerfile: ./compose/production/postgres/Dockerfile
-    image: cornertest_production_postgres
+    image: truehome_production_postgres
     volumes:
       - local_postgres_data:/var/lib/postgresql/data
       - local_postgres_data_backups:/backups
@@ -36,7 +36,7 @@ services:
     build:
       context: .
       dockerfile: ./compose/local/vue/Dockerfile
-    image: cornertest_local_vue
+    image: truehome_local_vue
     depends_on:
       - django
     volumes:
