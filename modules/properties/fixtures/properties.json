@@ -1,0 +1,28 @@
+[
+    {
+        "model": "properties.property",
+        "pk": 1,
+        "fields": {
+            "title": "Active",
+            "address": "Address 1",
+            "description": "This is an active property",
+            "disabled_at": null,
+            "status": "active",
+            "created_at": "2021-02-24",
+            "updated_at": "2021-02-24"
+        }
+    },
+    {
+        "model": "properties.property",
+        "pk": 2,
+        "fields": {
+            "title": "Deactive",
+            "address": "Address 2",
+            "description": "This is a deactive property",
+            "disabled_at": "2021-02-25",
+            "status": "deactive",
+            "created_at": "2021-02-24",
+            "updated_at": "2021-02-24"
+        }
+    }
+]

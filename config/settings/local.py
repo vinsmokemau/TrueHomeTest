@@ -29,6 +29,11 @@ CACHES = {
     }
 }
 
+# Fixtures
+FIXTURE_DIRS = (
+    'modules/properties/fixtures/properties.json',
+)
+
 # Templates
 TEMPLATES[0]['OPTIONS']['debug'] = DEBUG  # NOQA
 

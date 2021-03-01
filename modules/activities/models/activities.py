@@ -14,7 +14,7 @@ class Activity(BaseModel):
     A Activity is |.
     """
 
-    property_id = models.ForeignKey(
+    property = models.ForeignKey(
         'properties.Property',
         related_name='activities',
         on_delete=models.CASCADE,

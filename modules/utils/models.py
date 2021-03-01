@@ -18,7 +18,7 @@ class BaseModel(models.Model):
         auto_now_add=True,
         help_text='Date time on which the object was created.',
     )
-    updated = models.DateTimeField(
+    updated_at = models.DateTimeField(
         'updated at',
         auto_now=True,
         help_text='Date time on which the object was last updated.',
@@ -30,4 +30,4 @@ class BaseModel(models.Model):
         abstract = True
 
         get_latest_by = 'created_at'
-        ordering = ['-created_at', '-updated']
+        ordering = ['-created_at', '-updated_at']
